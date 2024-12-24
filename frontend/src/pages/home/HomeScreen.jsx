@@ -95,7 +95,7 @@ const HomeScreen = () => {
 						</h1>
 						<p className='mt-2 text-lg'>
 							{trendingContent?.results.release}{" "}
-							| {trendingContent?.results.content_rating ? "18+" : "PG-13"}
+							| {trendingContent?.results.content_rating ? "" : "PG-13"}
 						</p>
 
 						<p className='mt-4 text-lg'>
